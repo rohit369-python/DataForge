@@ -1,0 +1,1 @@
+Connect Power BI Desktop to PostgreSQL database `datapulse`, schema `analytics`. Publish curated views here after loading warehouse data. The local demo also emits `data/gold/daily_sales_summary.csv` for a quick import.

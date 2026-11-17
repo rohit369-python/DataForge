@@ -1,0 +1,12 @@
+datapulse:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: datapulse
+      password: datapulse
+      port: 5432
+      dbname: datapulse
+      schema: analytics
+      threads: 4

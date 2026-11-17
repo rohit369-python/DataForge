@@ -1,0 +1,4 @@
+[
+ {"customer_id":501,"customer_name":"Aarav Mehta","email":"aarav@example.com","city":"Delhi"},
+ {"customer_id":502,"customer_name":"Mira Shah","email":"invalid-email","city":"Mumbai"}
+]
