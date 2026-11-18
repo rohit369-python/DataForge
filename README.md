@@ -1,8 +1,5 @@
 # DataPulse — Full-Stack Data Engineering & Analytics Platform
 
-> **Role:** Full-Stack Python Software Developer  
-> **Project type:** Full-stack web application + batch data-processing pipeline  
-> **Status:** Portfolio prototype / runnable vertical slice
 
 DataPulse is a portfolio project built to demonstrate how a full-stack Python developer can bring together a web-based operations dashboard, REST APIs, relational metadata storage, and a data-processing workflow. It focuses on a practical e-commerce sales use case: ingest source data, preserve the original input, assess data quality, clean and deduplicate records, separate rejected rows, and publish analytics-ready outputs.
 
@@ -132,7 +129,6 @@ Rows rejected for invalid `order_date` or non-positive `quantity` are written to
 
 CSV source → Bronze snapshot → Quality assess → Clean & dedup → Silver Parquet → Gold summary, with dashboard and metadata store.
 
-> **Note:** The React dashboard itself is fully interactive when the Docker stack is running. The images above show representative data outputs and the expected look-and-feel of the UI based on the implemented frontend code.
 
 ## End-to-end workflow
 
@@ -291,11 +287,7 @@ datapulse/
    docker compose down -v
    ```
 
-**Optional services:** MinIO and Redis are defined as Compose profiles, not required by the demo. They can be started with:
 
-```bash
-docker compose --profile storage --profile cache up --build
-```
 
 ### Option 2 — Run the backend locally
 
@@ -493,3 +485,10 @@ It is intended as a practical learning and portfolio project that can be extende
 ## License
 
 This project is distributed under the MIT License. See [LICENSE](LICENSE).
+
+## Author
+
+**Rohit Kumar**
+
+Computer Science Engineering Student
+Full Stack Pythone Developer
